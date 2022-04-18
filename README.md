@@ -2,4 +2,4 @@
 Fibonacci series
 
 #Steps for run the code:
-python file_name.py
+python Fibonacci_series.py
