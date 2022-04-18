@@ -9,13 +9,14 @@ def printFibonacciNumbers(n):
   #print the f1 value
     print(f1, end=" ")
   #create list of 1 to n element for Fibonacci series
+    next = 0
     for x in range(1, n):
         print(f2, end=" ")
   #swapping the value
         next = f1 + f2
         f1 = f2
         f2 = next
- 
- 
+    return next
+  
 # Driven code
 printFibonacciNumbers(8)
